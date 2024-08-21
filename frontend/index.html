@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ongoing Auctions - LyvBid</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="auctions">
+        <h1>Ongoing Auctions</h1>
+        <ul id="auctionList">
+            <!-- Auctions will be listed here -->
+        </ul>
+        <!-- New Button to Create an Auction -->
+        <button onclick="window.location.href='createAuction.html'">Create New Auction</button>
+        <br><br>
+        <button onclick="logout()">Logout</button>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
